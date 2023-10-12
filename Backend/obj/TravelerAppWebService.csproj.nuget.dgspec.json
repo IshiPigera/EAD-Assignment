@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Documents\\EAD\\TravelerAppWebService-master\\TravelerAppWebService.csproj": {}
+    "D:\\EAD\\EAD-Ticket-Reservation-System\\Backend\\TravelerAppWebService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Documents\\EAD\\TravelerAppWebService-master\\TravelerAppWebService.csproj": {
+    "D:\\EAD\\EAD-Ticket-Reservation-System\\Backend\\TravelerAppWebService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\EAD\\TravelerAppWebService-master\\TravelerAppWebService.csproj",
+        "projectUniqueName": "D:\\EAD\\EAD-Ticket-Reservation-System\\Backend\\TravelerAppWebService.csproj",
         "projectName": "TravelerAppWebService",
-        "projectPath": "C:\\Users\\ASUS\\Documents\\EAD\\TravelerAppWebService-master\\TravelerAppWebService.csproj",
+        "projectPath": "D:\\EAD\\EAD-Ticket-Reservation-System\\Backend\\TravelerAppWebService.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Documents\\EAD\\TravelerAppWebService-master\\obj\\",
+        "outputPath": "D:\\EAD\\EAD-Ticket-Reservation-System\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

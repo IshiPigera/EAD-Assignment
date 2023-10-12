@@ -34,7 +34,7 @@ namespace TravelerAppWebService.Controllers
                 Console.WriteLine($"Received user data: Id = {user.Id}, Name = {user.FirstName}, Email = {user.Email}, etc.");
 
                 // Return HTTP 201 Created status along with the newly created user
-                return user;
+                return Ok(new { Message = "User created Successfully", user });
             }
             catch (Exception ex)
             {
