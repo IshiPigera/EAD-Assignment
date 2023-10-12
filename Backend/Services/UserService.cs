@@ -31,7 +31,7 @@ namespace TravelerAppService.Services
         //getById
         public async Task<User> GetByIdAsync(string id)
         {
-            var filter = Builders<User>.Filter.Eq(x => x.Id, id);
+            var filter = Builders<User>.Filter.Eq(x => x.NationalIdentificationCard, id);
             return await _userCollection.Find(filter).FirstOrDefaultAsync();
         }
 
