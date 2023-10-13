@@ -63,14 +63,15 @@ namespace TravelerAppWebService.Controllers
             }
 
             await _userService.UpdateAsync(id, user);
-            return NoContent();
+            return Ok(new { Message = "User Updated Successfully" });
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(string id)
         {
             await _userService.DeleteAsync(id);
-            return NoContent();
+            return Ok(new { Message = "User Deleted Successfully" });
+
         }
     }
 
